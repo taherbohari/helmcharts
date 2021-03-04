@@ -13,10 +13,6 @@ This repo contains helm charts for simple microservices
 **NOTE :** I have deployed this setup on AWS instance and running minikube with --vm-driver as None
 
 ## Steps
-#### Clone this repository
-```
-git clone https://github.com/taherbohari/helmcharts.git
-```
 #### Check minikube status
 ```
 $ minikube status
@@ -27,6 +23,14 @@ kubelet: Running
 apiserver: Running
 kubeconfig: Configured
 timeToStop: Nonexistent
+```
+#### Clone this repository
+```
+git clone https://github.com/taherbohari/helmcharts.git
+```
+#### cd into directory
+```
+cd helmcharts
 ```
 #### Install the helm chart. You can give any chart name of your choice
 ```
