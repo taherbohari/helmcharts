@@ -9,6 +9,7 @@ This repo contains helm charts for simple microservices
 
 ## Defaults
 - k8s namespace used : default
+- k8s service type : NodePort. For production grade cluster we can use either LoadBalancer or can create Ingress to access application from outside.
 
 **NOTE :** I have deployed this setup on AWS instance and running minikube with --vm-driver as None
 
